@@ -268,3 +268,11 @@
 	window.renderEvents = render.bind(null, document.getElementById('calendar-container'));
 
 }());
+
+window.renderEvent([
+  {starts_at: 120, duration: 45, title: "Meeting with Ben", location: "Coffee Shop"}, 
+  {starts_at: 240, duration: 60, title: "Lunch with Karl", location: "TBA"},
+  {starts_at: 75, duration: 60, title: "Sync with John"},
+  {starts_at: 360, duration: 25},
+  {starts_at: 420, duration: 120}
+]);
