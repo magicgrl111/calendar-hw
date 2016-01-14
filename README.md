@@ -38,7 +38,7 @@ This function will be invoked from the console for purposes of grading this subm
 ##Submission Guidelines
 
 In your submission, please implement a calendar which renders the events listed above, and closely matches this screenshot:
-![alt tag](http://s28.postimg.org/ek5b5gup8/calendar_output.jpg)
+<img src="https://raw.githubusercontent.com/neilbaylor/calendar-hw/master/output.png">
 
 Your submission should include an index.html which loads all dependent scripts and stylesheets.
 
