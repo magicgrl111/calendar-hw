@@ -30,10 +30,14 @@ The day finishes at 9 PM.
 
 You can structure your code however you like, but you must implement a function in the global namespace called renderEvents which takes an array of events as described above, and renders them to the container according to the above description. 
 
-**Your solution cannot depend on any third-party libraries.**
-
-`function renderEvents(events) {...}`
+```
+window.renderEvents = function(events) {
+  ...
+}
+```
 This function will be invoked from the console for purposes of grading this submission. If it cannot be invoked, the submission will be rejected. This function should be idempotent.
+
+**Your solution cannot depend on any third-party libraries.**
 
 ##Submission Guidelines
 
