@@ -41,7 +41,7 @@ This function will be invoked from the console for purposes of grading this subm
 
 ##Submission Guidelines
 
-In your submission, please implement a calendar which renders the events listed above, and closely matches this screenshot:
+In your submission, please implement a calendar which renders the events listed above, and closely matches this screenshot:<br>
 <img src="https://raw.githubusercontent.com/neilbaylor/calendar-hw/master/output.png" width=765px>
 
 Your submission should include an index.html which loads all dependent scripts and stylesheets.
