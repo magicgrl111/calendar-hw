@@ -1,13 +1,13 @@
 # DigitalOcean Front-end Coding Challenge
 
 ##The Problem:
-You have a collection of events represented as Javascript Objects, each with at least the following properties: starts_at INT, duration INT, and optionally title STRING, or location STRING.
+You have a collection of events represented as Javascript Objects, each with at least the following properties: `starts_at` INT, `duration` INT, and optionally `title` STRING, or `location` STRING.
 
-starts_at is represented in minutes from 9am today, and duration is represented in minutes from starts_at.
+`starts_at` is represented in minutes from 9am today, and duration is represented in minutes from `starts_at`.
 
 You can assume the collection of events is unsorted.
 
-##Example events:
+##Sample events:
 ```
 var events = [
   {starts_at: 120, duration: 45, title: "Meeting with Ben", location: "Coffee Shop"}, 
@@ -28,14 +28,17 @@ No events may visually overlap. If multiple events collide they MUST have the sa
 
 The day finishes at 9 PM.
 
-You can structure your code however you like, but you must implement a function in the global namespace called renderEvents which takes an array of events as described above, and renders them to the container according to the above description. Your solution cannot depend on any third-party libraries.
+You can structure your code however you like, but you must implement a function in the global namespace called renderEvents which takes an array of events as described above, and renders them to the container according to the above description. 
+
+**Your solution cannot depend on any third-party libraries.**
 
 `function renderEvents(events) {...}`
 This function will be invoked from the console for purposes of grading this submission. If it cannot be invoked, the submission will be rejected. This function should be idempotent.
 
 ##Submission Guidelines
 
-In your submission, please implement a calendar which renders the events listed above, and closely matches the attached screenshot visually.
+In your submission, please implement a calendar which renders the events listed above, and closely matches this screenshot:
+
 
 Your submission should include an index.html which loads all dependent scripts and stylesheets.
 
@@ -43,11 +46,10 @@ You can assume only modern browsers will be used for grading your submission.
 
 Additionally, your submission should be general enough to handle any amount of events, but for the purposes of grading no more than 100 will be used.
 
-Complete your submission by tar/zipping it in a single folder and sharing on Dropbox. For the fairness of all other candidates, please DO NOT push the completed submission to Github as a public repository.
 
 ##FAQ
-Can I use jQuery?
+**Can I use jQuery?**
 Generally speaking, No. If however you can convince us that using jQuery is better than native DOM manipulation, you won’t be marked down.
 
-Do I need to write Unit Tests?
+**Do I need to write Unit Tests?**
 No. Your homework will be assessed by running our own collection of events against the renderEvents function.
