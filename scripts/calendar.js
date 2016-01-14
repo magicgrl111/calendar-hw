@@ -30,9 +30,7 @@
 	 * @param CalendarEvent b
 	 */
 	function eventsOverlap(a, b) {
-		return a === b ||
-			(a.starts_at >= b.starts_at && a.starts_at < (b.starts_at + b.duration)) ||
-			(b.starts_at >= a.starts_at && b.starts_at < (a.starts_at + a.duration));
+
 	}
 
 	/**
@@ -155,15 +153,7 @@
 	 * @param Integer time
 	 */
 	function getTimeStr(time) {
-		var d = new Date(START_OF_DAY + (time * 1000 * 60)),
-			hours = d.getHours(),
-			mins = d.getMinutes(),
-			amPM = getAMPM(hours);
-
-		hours = hours > 12 ? hours - 12 : hours || 12;
-		mins = mins ? ':' + (mins < 10 ? '0' + mins : mins) : '';
-
-		return hours + mins + ' ' + amPM;
+		
 	}
 
 	/**
