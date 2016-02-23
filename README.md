@@ -10,7 +10,7 @@ You can assume the collection of events is unsorted.
 ##Sample events:
 ```
 var events = [
-  {starts_at: 120, duration: 45, title: "Meeting with Ben", location: "Coffee Shop"}, 
+  {starts_at: 120, duration: 45, title: "Meeting with Ben", location: "Coffee Shop"},
   {starts_at: 240, duration: 60, title: "Lunch with Karl", location: "TBA"},
   {starts_at: 75, duration: 60, title: "Sync with John"},
   {starts_at: 360, duration: 25},
@@ -28,7 +28,7 @@ No events may visually overlap. If multiple events collide they MUST have the sa
 
 The day finishes at 9 PM.
 
-You can structure your code however you like, but you must implement a function in the global namespace called renderEvents which takes an array of events as described above, and renders them to the container according to the above description. 
+You can structure your code however you like, but you must implement a function in the global namespace called renderEvents which takes an array of events as described above, and renders them to the container according to the above description.
 
 ```
 window.renderEvents = function(events) {
